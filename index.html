@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Motinha Rush — Janaina Senn</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="bg-glow glow1"></div>
+  <div class="bg-glow glow2"></div>
+
+  <header class="topbar">
+
+    <div class="brand">
+      <span class="helmet">🏍️</span>
+
+      <div>
+        <strong>
+          MOTINHA <span>RUSH</span>
+        </strong>
+
+        <small>DESAFIO URBANO</small>
+      </div>
+    </div>
+
+    <div class="author">
+      AUTORA: <b>JANAINA SENN</b>
+    </div>
+
+  </header>
+
+
+  <main>
+
+    <section class="hero">
+
+      <div class="hero-text">
+
+        <p class="eyebrow">
+          ⚡ CORRA. DESVIE. SOBREVIVA.
+        </p>
+
+        <h1>
+          Motinha<br>
+          <span>Rush</span>
+        </h1>
+
+        <p class="subtitle">
+          Pilote pela cidade, desvie dos obstáculos
+          e tente bater seu próprio recorde!
+        </p>
+
+        <div class="stats">
+
+          <div>
+            <b id="score">0</b>
+            <small>PONTOS</small>
+          </div>
+
+          <div>
+            <b id="best">0</b>
+            <small>RECORDE</small>
+          </div>
+
+          <div>
+            <b id="speed">1.0x</b>
+            <small>VELOCIDADE</small>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="game-card">
+
+        <div class="game-head">
+          <span>● AO VIVO</span>
+          <span>SETAS / WASD</span>
+        </div>
+
+        <canvas id="game" width="760" height="460"></canvas>
+
+
+        <div class="mobile-controls">
+
+          <button data-key="ArrowLeft">◀</button>
+          <button data-key="ArrowUp">▲</button>
+          <button data-key="ArrowDown">▼</button>
+          <button data-key="ArrowRight">▶</button>
+
+        </div>
+
+
+        <div class="game-actions">
+
+          <button id="startBtn" class="primary">
+            ▶ COMEÇAR
+          </button>
+
+          <button id="pauseBtn">
+            Ⅱ PAUSAR
+          </button>
+
+          <button id="restartBtn">
+            ↻ REINICIAR
+          </button>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <section class="info">
+
+      <article>
+
+        <span>🏁</span>
+
+        <div>
+          <b>Objetivo</b>
+
+          <p>
+            Faça a maior pontuação possível sem bater.
+          </p>
+        </div>
+
+      </article>
+
+
+      <article>
+
+        <span>💎</span>
+
+        <div>
+          <b>Coletáveis</b>
+
+          <p>
+            Pegue as estrelas para ganhar pontos extras.
+          </p>
+        </div>
+
+      </article>
+
+
+      <article>
+
+        <span>🔥</span>
+
+        <div>
+          <b>Desafio</b>
+
+          <p>
+            A pista fica cada vez mais rápida!
+          </p>
+        </div>
+
+      </article>
+
+    </section>
+
+  </main>
+
+
+  <footer>
+
+    © 2026 • MOTINHA RUSH •
+    CRIADO POR <b>JANAINA SENN</b>
+
+  </footer>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
